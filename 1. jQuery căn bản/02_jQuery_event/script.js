@@ -28,5 +28,23 @@ $(document).ready(function () {
     // Hàm hover là kết hợp của 2 hàm: mouseenter() và mouseleave()
 
     // -----------------Phần 3-----------------
+    // Hàm change: xảy ra khi input change
+    $("select").change(function () {
+        var option_selected = $("select").find(":selected").val()
+        console.log("The value that selected is: " + option_selected)
+    })
+    $(".input_text").change(function () { 
+        var result = $(".result_input_text")
+        var content = $(this).val()
+        result.text(content)
+    })
+
+    // Hàm focus: bắt sự kiện khi focus vào input
+    $(".input_text").focus(function () { 
+        var result = $(".result_input_text")
+        result.text("Nhập từ từ thôi bạn")
+    })
+    
+    
 
 })
