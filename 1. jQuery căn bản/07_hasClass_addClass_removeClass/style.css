@@ -1,0 +1,19 @@
+body {
+    background-color: brown;
+}
+.title {
+    color:bisque;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+
+.mau_do {
+    background-color: red;
+}
+
+.mau_xanh {
+    background-color: green;
+}
