@@ -1,0 +1,10 @@
+.checked {
+    color : red;
+    background-color: blueviolet;
+    width: 50px;
+}
+
+#result {
+    color:burlywood;
+    background-color: brown;
+}
