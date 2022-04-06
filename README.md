@@ -1,5 +1,7 @@
 <h1>Học jQuery</h1>
-Nội dung:
+<h3>Nội dung:</h3>
+<br>
+1. jQuery căn bản
 <ul>
     <li>jQuery selector</li>
     <li>jQuery event</li>
@@ -9,11 +11,12 @@ Nội dung:
     <li>some function relate to class</li>
     <li>some function relate to attribute</li>
 </ul>
+2. Bài tập jQuery
 <ul>
     <li>hide and show content when click to the button</li>
     <li>create tabs</li>
 </ul>
-
+3. Nhiều hơn về jQuery
 <ul>
     <li>All selector in jQuery</li>
     <li>Attribute contains</li>
